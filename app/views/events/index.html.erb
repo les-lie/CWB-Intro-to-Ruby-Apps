@@ -1,0 +1,8 @@
+<h2>Events</h2>
+
+<% @events.each do |single_event| %>
+  <%= single_event.name %> -
+  <%= single_event.description %><br />
+  <%= single_event.location %>
+  <br />
+<% end %>
